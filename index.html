@@ -5,15 +5,14 @@
     <title>Hye Won Portfolio</title>
     <link rel="stylesheet" href="main.css?after" media="(min-width:600px)">  <!-- pc버전   -->
     <link rel="stylesheet" href="main_mobile.css?after" media="(max-width:600px)">  <!-- mobile 버전  -->
-    <link rel="stylesheet" href="introduce.css?after" media="(min-width:600px)">  <!--  소개 페이지 pc버전   -->
-    <link rel="stylesheet" href="introduce_mobile.css?after" media="(max-width:600px)">
     <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- Lato-->
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> <!-- Lato-->
     <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- Dancing Script -->
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet"> <!-- Dancing Script -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.js">
   </head>
+
   <body>
     <div id="page"> <!--로고 & haeburney  -->
       <header>
@@ -37,60 +36,74 @@
         </div>
 
         <nav>
-          <ul>
+          <div class="button">
+            <ul>
               <li><a href="introduce.html">소개</a></li>
               <li><a href="skills.html">기술</a></li>
               <li><a href="project.html">프로젝트</a></li>
               <li><a href="https://github.com/haeburney" target="_blank">깃허브</a></li>
               <!-- <li><a href="#">무제</a></li> -->
               <li><a href="sns.html">SNS</a></li>
-          </ul>
+            </ul>
+          </div>
         </nav>
+
       </header>
     </div>
-
     <script src="main_mobile.js" defer></script>
 
-    <div class="main">
-      <div class="index">
-        해버니
-      </div>
-      <div class="mainImage">
-        <img src="images/semo.png" style="width:13px;">
-      </div>
-      <div class="what">
-        소개
-      </div>
-    </div>
+      <div>
+        <div id="bg">
+          <img src="images/bg01.jpg">
+        </div>
 
-    <div id="ar2">
-     <div id="ar03">
-        <img src="images/me11.png" width="160">
+        <div id="bgArticle">
+          <div id="bg1">
+            안녕하세요<br><br>
+          </div>
+
+          <div id="bg2">
+            개발자 김혜원입니다.
+          </div>
+
+          </div>
+        </div>
       </div>
 
-      <div id="ar04">
-        웹페이지의 메인 로고인 저 이미지는 저의 모습을 캐릭터로 표현한 그림으로
-        저의 상징적인 그림을 나타냅니다.<br><br>
-        저의 목표는 사용자 입장에서 쓰기 편한 서비스를 만들고 제공하는 것입니다.<br><br>
-        최근에는 웹페이지를 만드는 것에 대해 흥미가 생겨 공부하고 있습니다.<br>
-      </div>
-    </div>
+      <div id="ar1">
+        <div id="ar01">
+          <img src="images/study.png">
+        </div>
+        <div id="ar02">
+          안녕하세요. 컴퓨터정보공학과 3학년 김혜원입니다.<br>
+          고등학생 때 개발에 대한 호기심을 가지게 되어 진학을 하게 되었습니다.<br>
+          지금은 학교에서 여러가지 언어와 기술을 배우며
+          진로를 정하고 있는 중입니다.<br>
 
-    <div>
-        <br><br><br><br><br><br><br><br><br><br><br><br>
-    </div>
+        </div>
+      </div>
+
+      <div>
+          <br><br><br><br><br><br><br><br><br><br><br><br>
+      </div>
+
 
     <div id=bottom>              <!-- 밑에 헤더? 정보 표시 -->
+      <div id=info2>
+
+      </div>
       <div id="info1">
-        <br>해버니 (haeburney)
+        해버니 (haeburney)
       </div>
       <div id="myname">
-        <br><br>김혜원&nbsp
+        김혜원&nbsp
       </div>
       <div id="email">
-        <br><br>&nbsp&nbsp|&nbsp&nbsp이메일 : 4ckdnjssu@naver.com&nbsp&nbsp|&nbsp&nbsp
+        &nbsp&nbsp|&nbsp&nbsp이메일 : 4ckdnjssu@naver.com&nbsp&nbsp|&nbsp&nbsp
         카카오톡 : haewon0927
       </div>
     </div>
+
+    <script src="main.js"></script>
   </body>
 </html>
