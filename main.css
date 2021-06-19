@@ -1,0 +1,183 @@
+*{margin: 0px; padding: 0px;}
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap'); /* 글씨체 : 'Dancing Script' */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap'); /* 글씨체 : Song Myung*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap'); /*noto */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');  /* staatliches */
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');           /* Jua */
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+body{
+  cursor:url(images/heart.png),auto !important;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+a:hover{color: black;}
+
+.button ul{list-style:none;
+  padding-left: 200px;
+}
+
+a{text-decoration:none;
+  cursor:url(images/heart1.png),auto !important;
+}
+
+nav{
+  padding-top:30px;
+  bottom:10px;
+  left:220px;
+  font-size:16px;
+  padding-left: 20px;
+}
+
+header{
+  width:100%;
+  height:95px;
+  background-color:white;
+  position:relative;
+  border-bottom: 2px solid #DCDCDC;
+}
+
+nav li{
+  display:inline;
+  margin-left:40px;
+}
+
+#logo{
+  padding-top:8px;
+  padding-left:150px;
+  cursor:url(images/heart1.png),auto !important;
+}
+
+#mainImage{
+  margin-right:10px;
+  float:left;
+  padding-top:2px;
+}
+
+li{
+    font-family: 'Noto Sans KR', sans-serif;
+    color:#CBA2C5;
+}
+
+li:a{
+  color:#CBA2C5;
+}
+
+#hae{
+  float:left;
+  padding-top:15px;
+  font-family: 'Dancing Script', cursive;
+  font-size:35px;
+  background: linear-gradient(to right,#a6c0fe 0%, #f68084 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#burney{
+  float:left;
+  padding-top:15px;
+  font-size:35px;
+  padding-left:3px;
+  font-family: 'Dancing Script', cursive;
+  background: linear-gradient(to right,#f68084 0%, #a6c0fe 150%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#bottom{
+  background-color: #72787F;
+  height: 180px;
+}
+
+.abc{color:#CBA2C5;}
+
+#bg img{
+  height:400px;
+  position:absolute;
+}
+
+#bgArticle{
+  z-index=2;
+  position:absolute;
+  padding-left:300px;
+  padding-top:140px;
+}
+
+#bg1{
+  font-family: 'Jua', sans-serif;
+  font-size:30px;
+  color:white;
+  text-shadow: -1px 0 #C899C5, 0 1px #C899C5, 1px 0 #C899C5, 0 -1px #C899C5;
+}
+
+#bg2{
+  font-family: 'Jua', sans-serif;
+  font-size:20px;
+  color:white;
+}
+
+#bar{display:none;}
+
+#info1{
+  margin-top:20px;
+  margin-left:150px;
+  color:white;
+  font-size:25px;
+  padding-bottom:30px;
+}
+
+#info2{
+  height:30px;
+}
+
+#myname{
+  margin-left:150px;
+  color:white;
+  float:left;
+}
+
+#email{
+  margin-left:150px;
+  color:#DDDFE1;
+}
+
+.index{
+  margin-top:15px;
+  margin-left:170px;
+  float:left;
+  font-size:15px;
+  margin-right:5px;
+}
+
+.mainImage{
+  float:left;
+  margin-right:0px;
+  margin-top:15px;
+  margin-right:5px;
+}
+
+.what{
+  margin-left:200px;
+  float:left;
+  margin-top:15px;
+  margin-left:0px;
+  font-size:15px;
+}
+
+.main{ padding-bottom:50px;}
+
+#ar1{  padding-top:550px;}
+
+#ar01{
+  padding-left:300px;
+  float:left;
+}
+
+#ar02{
+  padding-left:500px;
+  padding-top:30px;
+}

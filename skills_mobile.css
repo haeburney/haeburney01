@@ -1,0 +1,38 @@
+#bottom{
+  height:280px;
+}
+
+.imageLogo{
+  text-align: center;
+  border-bottom:1px solid pink;
+  padding-bottom: 70px;
+  padding-top: 30px;
+}
+
+#skill{
+  padding-top: 40px;
+  font-size:22px;
+}
+
+.white{
+  border-bottom:1.5px solid grey;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#explain{
+  font-size: 20px;
+}
+
+.yellow{
+  padding-top: 50px;
+  text-align: center;
+}
+
+.blue{
+  padding-bottom: 20px;
+}
+
+.what1{
+  font-size: 25px;
+}

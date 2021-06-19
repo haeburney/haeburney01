@@ -1,0 +1,18 @@
+#bottom{
+  height:280px;
+}
+
+.article2{
+  padding-top: 50px;
+  font-size: 22px;
+}
+
+#company{
+  border-bottom:1px solid pink;
+  padding-bottom: 30px;
+}
+
+.article3{
+  padding-top:30px;
+  padding-bottom: 30px;
+}
